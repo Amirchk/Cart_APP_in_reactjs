@@ -1,0 +1,28 @@
+.main-store-div{
+    display: flex;
+    flex-direction:row;
+    width: auto;
+    height: 200px;
+    border-top:2px solid;
+    margin: 5px;
+}
+.description{
+    display: grid;
+}
+.Detail{
+    overflow-y:scroll;
+    max-height:200px;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+#AddCartButton{
+    width: 10%;
+    padding: 1%;
+    margin-top:1%;
+    background-color: rgb(0, 162, 255);
+    border-style: none;
+}
+#AddCartButton:hover{
+    background-color: rgb(83, 83, 255);
+}
